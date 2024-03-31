@@ -1,6 +1,18 @@
 @Sample.Api_HostAddress = http://localhost:5157
 
-GET {{Sample.Api_HostAddress}}/sample/
-Accept: application/json
+// A sample endpoint to check if the Api is working
+GET {{Sample.Api_HostAddress}}/sample/today
+
+###
+
+// Try call the endpoint without Api Key, this should fail
+GET {{Sample.Api_HostAddress}}/sample/details
+
+###
+
+// With Api Key the endpoint should be authenticated
+// as ClientId: 0081ab0f-47c7-4e48-807b-5c1c9e3b774d
+GET {{Sample.Api_HostAddress}}/sample/details
+X-Api-Key: UQSaqtdMPkc3XhDKb74x65CAYEemvZ8R
 
 ###
