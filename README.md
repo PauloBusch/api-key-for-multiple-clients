@@ -5,7 +5,7 @@
 ## Configuration
 The configuration of clients that are allowed to call the `details` endpoint are configured in `ApiKeyClients` section of `appsettings.json` file.
 For each client you have to provide the ApiKey value and ClientId. For your implementation you can include another fields as needed.
-```
+``` json
 "ApiKeyClients": [
     {
       "ApiKey": "S7hZ6DeKmqpUWVELawt8gR2bHc3NM9vn",
@@ -22,7 +22,5 @@ There are samples of requests that shows you the behaviour of the Api when calli
 ## Swagger UI
 
 A Swagger documentation is included in the Api, you can see the source code to configure Api Key authentication looking at `SwaggerConfiguration` class in `Sample.Api` project.
-
-![Swagger UI](images/swagger-ui.png)
 
 // TODO: I'll update this documentation later to add more details of the implementation :)
