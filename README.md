@@ -22,5 +22,3 @@ There are samples of requests that shows you the behaviour of the Api when calli
 ## Swagger UI
 
 A Swagger documentation is included in the Api, you can see the source code to configure Api Key authentication looking at `SwaggerConfiguration` class in `Sample.Api` project.
-
-// TODO: I'll update this documentation later to add more details of the implementation :)
